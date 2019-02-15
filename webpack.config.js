@@ -5,6 +5,12 @@ module.exports = {
         filename: "app.js",
         path: path.resolve(__dirname,"static")
     },
+    devServer: {
+        contentBase: "./static",
+        historyApiFallback: true,
+        inline: true,
+        port: 8088
+    },
     module: {
         rules: [
             {

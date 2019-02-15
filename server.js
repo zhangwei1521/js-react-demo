@@ -1,3 +1,6 @@
+/**
+ * 不再使用，现在使用 webpack-dev-server
+ */
 var express = require("express");
 var app = express();
 app.use("/",express.static("static"));
